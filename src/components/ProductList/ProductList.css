@@ -1,0 +1,22 @@
+.product{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
+  .product img{
+    width: 80%;
+  }
+
+  .products{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }

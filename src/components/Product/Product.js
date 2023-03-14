@@ -1,14 +1,14 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { products } from '../../products'
-
+import './Product.css'
 
 const Product = (props)=>{
 
     const {id} = useParams();
 
     return(
-        <div>
+        <div className="product">
             <h1>Detalle del producto</h1>
             <img src={products[id].image} alt={products[id].name}/>
             <p>{products[id].name}</p>
