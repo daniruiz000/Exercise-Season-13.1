@@ -4,9 +4,12 @@ const About = () => {
     return (
 
         <div className="page">
-            <h1>About</h1>
-            <p>dolore magna aliqua veniam, quis nostrud exercitation ullamcorpor s commodo consequat. Duis autem vel eum irrure esse molestiae consequat, vel illum dolore eu fugi et iusto odio dignissim qui blandit praesent luptat exceptur sint occaecat cupiditat non provident, deserunt mollit anim id est laborum et dolor fuga distinct. Nam liber tempor cum soluta nobis elige quod maxim placeat facer possim omnis volupt
-                consectetur adipiscing incidunt ut labore et dolore magna aliquam erat nostrud exercitation ullamcorper suscipit laboris nis duis autem vel eum irure dolor in reprehenderit i dolore eu fugiat nulla pariatur. At vero eos et accus praesant luptatum delenit aigue duos dolor et mol provident, simil tempor sunt in culpa qui officia de fuga. Et harumd dereud facilis est er expedit disti eligend oprio congue nihil impedit doming id quod assumenda est, omnis dolor repellend. Temporibud</p>
+            <h1>Historias de éxito</h1>
+            <p> Te presento nuestra sección "Historias de éxito", en la que compartimos inspiradoras historias de personas que han transformado sus vidas a través del deporte y la actividad física. En esta sección, encontrarás una serie de relatos motivadores que te demostrarán cómo el deporte puede ser una herramienta poderosa para alcanzar tus objetivos y mejorar tu bienestar físico y mental.
+
+Desde historias de personas que han perdido peso gracias al deporte, hasta aquellas que han superado desafíos físicos y mentales, en "Historias de éxito" encontrarás una variedad de testimonios inspiradores que te animarán a comenzar o continuar tu propia historia de éxito.
+
+Además, en esta sección también compartimos consejos y recomendaciones de expertos en deporte y actividad física, para ayudarte a alcanzar tus metas de una manera efectiva y saludable. No te pierdas la oportunidad de descubrir cómo el deporte puede transformar tu vida y conoce las historias de éxito de personas como tú.</p>
         </div>
 
     )

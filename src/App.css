@@ -9,27 +9,76 @@
 
 .navigation a,
 .navigation__link{
-  background-color: white;
+  background-color: rgb(242, 218, 144);
   font-size: 14px;
+  font-weight: 700;
   margin: 20px;
-  border: 1px solid black;
+  border: none;
   border-radius: 10px;
   padding:5px  10px;
   text-decoration: none;
-  color: blue;
+  color: white;
 }
 
 .navigation__link{
 border: 1px solid grey;
 cursor: pointer;
-margin: 10px;}
+margin: 10px;
+box-shadow: 2px 2px 2px 2px grey;
+}
+
 
 .navigation a.active{
-  text-decoration: underline;
-  color: red;
+  
+  font-size: 20px;
+  padding: 15px 30px;
+  height: 50px;
+
 }
 
 .page{
   text-align: center;
+}
+.app button, a{
+  border-radius: 10px;
+  background-color: rgb(241, 206, 117);
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+
+.app h1{
+  text-align: center;
+  margin: 0 auto;
+  margin: 50px;
+}
+
+.page__log{
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.page__log input{
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 20px;
+  width: 300px;
+}
+.page p {
+  font-size: 30px;
+  font-weight: 700;
+  width: 70%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.page button{
+  margin: 50px auto;
+  padding: 20px;
+  font-size: 30px;
+  cursor: pointer;
 }
 

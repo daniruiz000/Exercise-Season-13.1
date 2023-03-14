@@ -31,14 +31,13 @@ function App() {
 
             <Route path='/product-list' element={<React.Suspense fallback={<p>Cargando...</p>}><ProductList/></React.Suspense>}></Route>
 
-            <Route path='/product-detail/:id' element={<React.Suspense fallback={<p>Cargando...</p>}><Product setAuthInfo= {setAuthInfo} authInfo= {authInfo}/></React.Suspense>}></Route>
+            <Route path='/product-detail/:id' element={<React.Suspense fallback={<p>Cargando...</p>}><Product login={setAuthInfo}/></React.Suspense>}></Route>
 
             <Route path='login' element={<Login login={setAuthInfo} />}></Route>
-            <Route path='my-acount' element={<MyAcount />}></Route>
+            <Route path='my-acount' element={<MyAcount login={setAuthInfo}/>}></Route>
 
             <Route path='*' element={<React.Suspense fallback={<p>Cargando...</p>}><NotFound /></React.Suspense>}></Route>{/*Para casos en los que no existe la pag en nuestra navegación.Cargada lazy*/}
           </Routes>
-
         </BrowserRouter>
 
       </div>

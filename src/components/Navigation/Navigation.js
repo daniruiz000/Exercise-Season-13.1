@@ -9,13 +9,13 @@ const Navigation = () => {
 
     return (
         <nav className='navigation'>
-            <button className='navigation__link' onClick={()=>navigate(-1)}>Atras</button>
+            <button className='navigation__link' onClick={()=>navigate(-1)}>ATRÁS</button>
             <NavLink to='/'>HOME</NavLink>
-            <NavLink to='/about'>ABOUT</NavLink>
+            <NavLink to='/about'>HISTORIAS DE EXITO</NavLink>
             <NavLink to='/product-list'>PRODUCTOS</NavLink> 
-            <NavLink to='login'>Login</NavLink>
-            <NavLink to='my-acount'>My Acount</NavLink>
-            <button className='navigation__link' onClick={()=>navigate(+1)}>Adelante</button>
+            <NavLink to='login'>LOGIN</NavLink>
+            <NavLink to='my-acount'>MY ACOUNT</NavLink>
+            <button className='navigation__link' onClick={()=>navigate(+1)}>ADELANTE</button>
         </nav>
     )
 }
