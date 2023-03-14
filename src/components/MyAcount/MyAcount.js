@@ -5,7 +5,7 @@ import { Navigate } from "react-router-dom";
 const MyAcount = () => {
 
     const authInfo = React.useContext(AuthContext)
-    
+
     return (
 
         <div className="page">
@@ -13,7 +13,9 @@ const MyAcount = () => {
             {authInfo && authInfo.user ?
                 <>
                     <p>Usuario: {authInfo.user} </p>
-                    <p>Producto favorito: {authInfo.favoriteProduct}</p>
+                    {authInfo.favoriteProduct ? <p>Producto favorito: {authInfo.favoriteProduct}</p>
+                    :<p></p>}
+                    
                 </>
                 : <Navigate to='/login' replace={true} />
             }
