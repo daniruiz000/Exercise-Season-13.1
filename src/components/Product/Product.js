@@ -1,8 +1,10 @@
-import React from "react";
-import { useParams } from "react-router-dom";
-import { products } from '../../products'
-import { AuthContext } from "../../App";
 import './Product.css'
+
+import React from "react"
+import { useParams } from "react-router-dom"
+import { products } from '../../products'
+import { AuthContext } from "../../App"
+
 
 const Product = ({login})=>{
 

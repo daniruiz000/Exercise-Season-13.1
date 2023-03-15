@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom';
-import { products } from '../../products'
 import './ProductList.css'
+
+import { Link } from 'react-router-dom'
+import { products } from '../../products'
 
 
 const ProductList = () => {
@@ -10,7 +11,6 @@ const ProductList = () => {
             <h1>PRODUCTOS</h1>
             <div className='products'>
                 {products.map(product => {
-
                     return (
                         <div className="product" key={product.id}>
                             <img src={product.image} alt={product.name}></img>
@@ -20,7 +20,6 @@ const ProductList = () => {
                     )
                 })}
             </div>
-
         </div>
     )
 }

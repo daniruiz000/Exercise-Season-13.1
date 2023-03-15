@@ -1,4 +1,4 @@
-.app{
+.app {
   padding: 20px;
 }
 
@@ -8,38 +8,40 @@
 }
 
 .navigation a,
-.navigation__link{
+.navigation__link {
   background-color: rgb(242, 218, 144);
   font-size: 14px;
   font-weight: 700;
   margin: 20px;
   border: none;
   border-radius: 10px;
-  padding:5px  10px;
+  padding: 5px 10px;
   text-decoration: none;
   color: white;
 }
 
-.navigation__link{
-border: 1px solid grey;
-cursor: pointer;
-margin: 10px;
-box-shadow: 2px 2px 2px 2px grey;
+.navigation__link {
+  border: 1px solid grey;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 2px grey;
 }
 
 
-.navigation a.active{
-  
+.navigation a.active {
+
   font-size: 20px;
   padding: 15px 30px;
   height: 50px;
 
 }
 
-.page{
+.page {
   text-align: center;
 }
-.app button, a{
+
+.app button,
+a {
   border-radius: 10px;
   background-color: rgb(241, 206, 117);
   padding: 10px;
@@ -49,25 +51,38 @@ box-shadow: 2px 2px 2px 2px grey;
   border: none;
 }
 
-.app h1{
+.app h1 {
   text-align: center;
   margin: 0 auto;
   margin: 50px;
 }
 
-.page__log{
+.page__log {
   width: 500px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
-.page__log input{
+
+.page__log p {
+  font-size: 20px;
+}
+
+.page__log input {
   margin: 20px auto;
   padding: 10px;
   font-size: 20px;
   width: 300px;
+  border-radius: 10px;
 }
-.page p {
+
+.page__imp {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.page__text {
   font-size: 30px;
   font-weight: 700;
   width: 70%;
@@ -75,10 +90,10 @@ box-shadow: 2px 2px 2px 2px grey;
   margin: 0 auto;
 }
 
-.page button{
+
+.page button {
   margin: 50px auto;
   padding: 20px;
   font-size: 30px;
   cursor: pointer;
 }
-
