@@ -1,6 +1,6 @@
 
 const NotFound = () => {
-    console.log('Renderizo NotFound')
+
     return (
 
         <div className="page">
